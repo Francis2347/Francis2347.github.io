@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: ALGER;
+    src: url(../fonts/ALGER.TTF);
+}
+@font-face {
+    font-family: OLD ENG;
+    src: url(../fonts/OLDENGL.TTF);
+}
+body{
+    justify-items: center;
+    align-content: center;
+}
+h1{
+    text-align: center;
+    font-family: OLD ENG;
+    text-shadow: 3px 3px 5px red, -3px -3px 5px red;
+}
+.wrapper{
+    width: 500px;
+    height: 557px;
+    border: 2px solid white;
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+    align-content: center;
+    justify-items:  center;
+}
+#forgot{
+    text-decoration: none;
+    color:blue;
+}
